@@ -21,7 +21,7 @@ public class Screenshoot {
 		TakesScreenshot ts = ((TakesScreenshot) driver);
 		driver.get("https://www.flipkart.com/");
 		File ScreenFile = ts.getScreenshotAs(OutputType.FILE);
-		String path = "C:\\Users\\ROYAL INFOTECH\\eclipse-workspace\\GTC002\\screenshot\\image.png1";
+		String path = "C:\\Users\\ROYAL INFOTECH\\eclipse-workspace\\GTC002\\screenshot\\image.png9";
 		File targetfile = new File(path);
 		try {
 			FileUtils.copyFile(ScreenFile, targetfile);

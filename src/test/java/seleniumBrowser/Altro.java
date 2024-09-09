@@ -28,6 +28,7 @@ public class Altro {
 //		driver.findElement(By.name("btnSubmit")).click();
 //		driver.close();
 		//driver.findElement(By.xpath("//input[@id='uid']")).sendKeys("jsmith");
+		
 		driver.findElement(By.xpath("//input[contains(@id,'uid')]")).sendKeys("jsmith");
 		
 		//driver.findElement(By.xpath("//input[@id='passw']")).sendKeys("demo1234");

@@ -8,12 +8,28 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,114</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">9,183</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Learn_TestNG.Altro</td><td><a href="#m0">applunch</a></td><td rowspan="1">1721818916304</td><td rowspan="1">3526</td></tr><tr class="passedeven"><td><a href="#m1">signoff</a></td><td rowspan="1">1721818919841</td><td rowspan="1">82</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Listener.TestClass</td><td><a href="#m0">Test2</a></td><td rowspan="1">1725906563784</td><td rowspan="1">14</td></tr><tr class="failedeven"><td><a href="#m1">Test3</a></td><td rowspan="1">1725906563811</td><td rowspan="1">119</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Listener.TestClass</td><td><a href="#m2">Test4</a></td><td rowspan="1">1725906563940</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Listener.TestClass</td><td><a href="#m3">Screenshot</a></td><td rowspan="1">1725906554838</td><td rowspan="1">8925</td></tr><tr class="passedeven"><td><a href="#m4">Test1</a></td><td rowspan="1">1725906563774</td><td rowspan="1">6</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Learn_TestNG.Altro#applunch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Learn_TestNG.Altro#signoff</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Listener.TestClass#Test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at Listener.TestClass.Test2(TestClass.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Listener.TestClass#Test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.thread.ThreadTimeoutException: Method Listener.TestClass.Test3() didn&apos;t finish within the time-out 100
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:509)
+	at Listener.TestClass.Test3(TestClass.java:39)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 6 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Listener.TestClass#Test4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestClass.Test4()[pri:4, instance:Listener.TestClass@6379eb] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Listener.TestClass#Screenshot</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Listener.TestClass#Test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

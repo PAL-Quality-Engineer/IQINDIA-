@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Learn_TestNG.Altro2_Asserts_Firefox">
+      <class name="Learn_TestNG.Asrology_Login">
         <methods>
-          <include name="signoff"/>
-          <include name="applunch"/>
-          <include name="init"/>
-          <include name="appdown"/>
+          <include name="AstrologyDemo"/>
+          <include name="Astrology_Login"/>
         </methods>
-      </class> <!-- Learn_TestNG.Altro2_Asserts_Firefox -->
+      </class> <!-- Learn_TestNG.Asrology_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
