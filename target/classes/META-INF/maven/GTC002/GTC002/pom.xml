@@ -34,7 +34,7 @@
 				<version>3.2.5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng_altro.xml</suiteXmlFile>
+						<suiteXmlFile>testng-listener.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 		</plugin>
